@@ -1,0 +1,12 @@
+http:
+  listner:
+    host: "localhost"
+    port: "9081"
+    path: "/travelOnTioCall/{serviceType}"
+    
+db:
+  host: "bafk3hr9kimenmlm4gzc-mysql.services.clever-cloud.com"
+  port: "3306"
+  user: "ugfykgc2bxkbwcmp"
+  dataBase: "bafk3hr9kimenmlm4gzc"
+  password: "EjlqQaPSyfRPqVKQYSLF"
