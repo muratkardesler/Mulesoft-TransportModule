@@ -15,4 +15,5 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<http:request-config name="HTTP_Request_configuration_TravelOnTip" doc:name="HTTP Request configuration" doc:id="9199291d-3392-4e7a-a128-b41ea074a05d" >
 		<http:request-connection host="${http.requester.host}" port="${http.requester.port}" />
 	</http:request-config>
+	<configuration doc:name="Configuration" doc:id="1d33304b-6b3c-4fd5-9aeb-22e77336d481" defaultErrorHandler-ref="globalErrorHandlerError_Handler" />
 	</mule>
