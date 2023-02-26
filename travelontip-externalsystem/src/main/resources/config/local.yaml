@@ -2,7 +2,7 @@ http:
   listner:
     host: "localhost"
     port: "9081"
-    path: "/travelOnTioCall/{serviceType}"
+    path: "/travelOnTipCall/{serviceType}"
     
 db:
   host: "bafk3hr9kimenmlm4gzc-mysql.services.clever-cloud.com"
